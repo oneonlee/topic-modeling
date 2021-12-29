@@ -19,6 +19,10 @@ pip install pandas
 pip install konlpy
 pip install tweepy==3.10.0
 pip install git+https://github.com/ssut/py-hanspell.git
+pip install gensim==3.8.3
+pip install pyLDAvis
+pip install tqdm
+pip install matplotlib
 ```
 
 ## References
