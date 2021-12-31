@@ -7,6 +7,8 @@ Topic Modeling, LDA
   - Python 버전에 맞는 JDK 설치
   - JDK 환경 변수 설정
   - JPype 설치
+  - 설치 후, 아래의 명령어로 Java가 설치된 것을 확인할 수 있음
+    - `java -version` (Java 8 이상의 버전을 사용해야 함)
 
 <br>
 
@@ -16,14 +18,15 @@ Topic Modeling, LDA
 pip install --upgrade pip
 pip install jupyter
 pip install pandas
-pip install konlpy
 pip install tweepy==3.10.0
 pip install git+https://github.com/ssut/py-hanspell.git
 pip install gensim==3.8.3
 pip install pyLDAvis
 pip install tqdm
 pip install matplotlib
+pip install PyKomoran
 ```
+<!-- pip install konlpy -->
 
 ## References
 - [딥 러닝을 이용한 자연어 처리 입문](https://wikidocs.net/book/2155)
