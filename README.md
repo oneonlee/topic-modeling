@@ -19,8 +19,8 @@ Topic Modeling, LDA
 ```
 pip install --upgrade pip
 pip install jupyter
-pip install pandas
-pip install konlpy
+
+pip install customized_konlpy
 pip install tweepy==3.10.0
 pip install git+https://github.com/ssut/py-hanspell.git
 pip install gensim==3.8.3
@@ -29,6 +29,8 @@ pip install tqdm
 pip install matplotlib
 ```
 <!-- pip install PyKomoran -->
+<!-- pip install konlpy -->
+
 
 ## References
 - [딥 러닝을 이용한 자연어 처리 입문](https://wikidocs.net/book/2155)
