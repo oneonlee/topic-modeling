@@ -19,8 +19,8 @@ Topic Modeling, LDA
 ```
 pip install --upgrade pip
 pip install jupyter
-
-pip install customized_konlpy
+pip install git+https://github.com/haven-jeon/PyKoSpacing.git
+pip install konlpy
 pip install tweepy==3.10.0
 pip install git+https://github.com/ssut/py-hanspell.git
 pip install gensim==3.8.3
